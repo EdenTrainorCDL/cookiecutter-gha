@@ -161,7 +161,7 @@ report_to_port() {
     --data "{
       \"identifier\": \"$repository_name\",
       \"title\": \"$repository_name\",
-      \"properties\": {}
+      \"properties\": $port_user_inputs
     }"
 }
 
